@@ -1,14 +1,17 @@
 ### List all messages
 GET http://localhost:3000/messages
 
+
 ### Create a new message
 POST http://localhost:3000/messages
 content-type: application/json
 
 {
-    "content": "123123",
-    "age": 14
+  "content": "second message"
 }
 
 ### Get a particaular message
-GET http://localhost:3000/messages/123123123
+GET http://localhost:3000/messages/462
+
+### 업는 메시지
+GET http://localhost:3000/messages/123123
